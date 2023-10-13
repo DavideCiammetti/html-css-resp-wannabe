@@ -127,17 +127,23 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
-
-    /* gestione schermo  tablet */
-@media screen and (max-width:768px) {
+ /* gestione schermata intera */
+ @media screen and (max-width:1160px ) {
     .container {
-       width: 100%;
-    }
+        width: 100%;
+     }
 }
+ /*fine gestione schermata intera */
+    /* gestione schermo  tablet */
 
- /* fine gestione schermo  tablet */
-
+@media screen and (min-width:768px){
+    .container {
+        width: 100%;
+     }
+}
+/* fine gestione schermo  tablet */
   /* gestione schermo  smartphonr 480px */
+
   @media screen and (max-width:480px) {
     .row{
         display: block;
@@ -150,3 +156,4 @@ img {
     }
 }
     /* fine gestione schermo  smartphonr 480px*/
+
