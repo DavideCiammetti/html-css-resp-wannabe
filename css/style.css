@@ -136,3 +136,17 @@ img {
 }
 
  /* fine gestione schermo  tablet */
+
+  /* gestione schermo  smartphonr 480px */
+  @media screen and (max-width:480px) {
+    .row{
+        display: block;
+    }
+    .steps .col, 
+    .why-us .col-left, 
+    .why-us .col-right, 
+    .lessons .col{
+        width: 100%;
+    }
+}
+    /* fine gestione schermo  smartphonr 480px*/
