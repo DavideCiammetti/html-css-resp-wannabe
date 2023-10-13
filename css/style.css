@@ -144,7 +144,8 @@ img {
 /* fine gestione schermo  tablet */
   /* gestione schermo  smartphonr 480px */
 
-  @media screen and (max-width:480px) {
+  @media screen and (max-width:480px){
+  
     .row{
         display: block;
     }
@@ -154,6 +155,17 @@ img {
     .lessons .col{
         width: 100%;
     }
-}
-    /* fine gestione schermo  smartphonr 480px*/
-
+    .why-us{
+        padding-top: 3rem;
+        background-color: black;
+        margin-bottom: 0;
+    }
+    .why-us li{
+        margin-bottom: 0;
+        padding-bottom: 3rem;
+    }
+    .steps{
+        margin-bottom: 0;
+    }
+      /* fine gestione schermo  smartphonr 480px*/
+  
